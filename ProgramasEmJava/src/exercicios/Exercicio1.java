@@ -1,4 +1,4 @@
-package Exercicio1;
+package exercicios;
 import java.util.Scanner;
 
 public class Exercicio1 {
@@ -24,6 +24,7 @@ public class Exercicio1 {
 				+ "O dobro do número eh: " + dobro + "\n"
 				+ "A metade eh: " + metade);
 	
+		sc.close();
 
 	}
 
