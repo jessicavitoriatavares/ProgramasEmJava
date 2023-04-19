@@ -13,7 +13,7 @@ public class operadoresRelacionais {
 		boolean ligado = true;
 		
 		int num2 = 31;
-		System.out.println(num1 , num2);
+		System.out.println(num1 + num2);
 		
 		boolean comparacao = num1 < num2;
 		System.out.println(comparacao);
