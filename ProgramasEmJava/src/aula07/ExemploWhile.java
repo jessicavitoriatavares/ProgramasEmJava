@@ -13,8 +13,8 @@ public class ExemploWhile {
 			System.out.println("Ola, mundo");
 			i++;
 		}
-		
-	}
+		sc.close();
+		}
 
 }
 
