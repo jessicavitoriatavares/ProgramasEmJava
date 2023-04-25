@@ -9,27 +9,25 @@ public class Exercicio9 {
 		
 		System.out.println("Informe o tipo do cliente");
 		String tipoCliente = sc.nextLine();
+		System.out.println("Informe a quantidade de KW/h que foram gastos");
+		double qntKw = sc.nextDouble();
 		
-		double  = num + num2;
-		double subtracao = num - num2;
-		double multiplicacao = num * num2;
-		double divisao = num / num2;
+		double residencia = 0.60 * qntKw;
+		double comercio = 0.40 * qntKw;
+		double industria = 1.29 * qntKw;
 
 		switch (tipoCliente) {
-		case "+":
-			System.out.println("o resultado da soma eh: " + soma);
+		case "residencia":
+			System.out.println("o valor da conta de luz é " + residencia);
 			break;
-		case "-":
-			System.out.println("o resultado da subtracao eh: " + subtracao);
+		case "comercio":
+			System.out.println("o valor da conta de luz eh: " + comercio);
 			break;
-		case "*":
-			System.out.println("o resultado da multiplicacao eh: " + multiplicacao);
-			break;	
-		case "/":
-			System.out.println("o resultado da divisao eh: " + divisao);
+		case "industria":
+			System.out.println("o valor da conta de luz eh: " + industria);
 			break;		
 		default:
-			System.out.println("Erro");
+			System.out.println("Erro!! digite um tipo de cliente valido");
 		
 		sc.close();
 		
