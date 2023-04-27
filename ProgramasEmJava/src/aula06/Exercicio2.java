@@ -5,7 +5,7 @@ public class Exercicio2 {
 	public static void main(String[] args) {
 		
 		int num1 = 2;
-		float num2 = 100520;
+		float num2 = 10.5f;
 		double num3 = 5.5;
 		
 		System.out.println(num1);
@@ -23,3 +23,6 @@ public class Exercicio2 {
 	}
 
 }
+
+// pintf --- formatar as casas decimais desejadas
+// "%.2f" -- deixa com duas casas decimais

@@ -20,7 +20,7 @@ public class Exercicio3 {
 		if (notaFinal >= 7) {
 			System.out.println("Aprovado!");
 		} else {
-			if (5 <= notaFinal || notaFinal < 7) { 
+			if (5 <= notaFinal && notaFinal < 7) { 
 				System.out.println("Em Recuperacao");			
 			} else {
 				System.out.println("Reprovado");
