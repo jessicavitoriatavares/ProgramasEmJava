@@ -7,7 +7,7 @@ public class Exercicio9 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Informe o tipo do cliente");
+		System.out.println("Informe o tipo do cliente" + "\n[1]Residência\\n[2]comeércio\\n[3]industria");
 		String tipoCliente = sc.nextLine();
 		System.out.println("Informe a quantidade de KW/h que foram gastos");
 		double qntKw = sc.nextDouble();
